@@ -1,0 +1,135 @@
+
+/* Universal Styles */
+html{
+  font-size:16px;
+  color:black;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-weight:600;
+}
+
+h2{
+    font-weight:500;
+
+}
+h3{
+    font-weight:lighter;
+
+}
+
+h5{
+  font-weight:lighter;
+  color:rgb(102, 153, 153);;
+
+}
+
+p{
+  font-size:1rem;
+}
+
+/*navigation styles*/
+.navbar{
+  background-color:white;
+  height:2.5rem;
+}
+
+.navbar-header .navbar-brand{
+  padding-top:0.4rem;
+}
+
+.navbar-header .navbar-brand > a{
+
+font-size:1.2rem;
+margin-right:1.5rem;
+color:black;
+
+}
+
+.navbar-header .navbar-brand > a > img{
+  margin-left:0rem;
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+    font-size:1rem;
+    padding-top:.8rem;
+}
+
+
+
+
+.navbar-right li img{
+ padding-top:.2rem;
+ height:1.5rem;
+}
+
+/* banner section styles*/
+.container .row h1{
+  padding-top:6rem;
+  margin-top:2rem;
+}
+
+
+.banner-holder{
+  width:100%;
+  background-color:rgb(208,221,232);
+  height:32rem;
+  margin-top:3rem;
+}
+
+.banner-holder img{
+  padding-top:2rem;
+  padding-bottom:2rem;
+
+}
+
+.banner-holder h2{
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+}
+
+
+
+.banner-holder p{
+  padding-top:1rem;
+  padding-bottom:1.5rem;
+}
+/* main section styles*/
+.mainfeatures{
+  padding:1.5rem 0rem;
+}
+
+.featureitem{
+transition-property:opacity;
+ transition-duration: 500ms;
+
+}
+
+.featureitem a{
+  text-decoration: none;
+  color:black;
+}
+
+
+.featureitem:hover {
+  opacity:.5;
+  text-decoration:none;
+}
+
+
+/*footer*/
+.footer{
+  border-top:1px solid rgb(208,221,232);
+    color:rgb(102, 153, 153);
+    font-weight:lighter;
+}
+.footer-copyright{
+  padding-top:.5rem;
+}
