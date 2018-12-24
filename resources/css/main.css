@@ -20,8 +20,12 @@ h2{
 }
 
 h3{
-    font-weight:200;
+    font-weight:300;
 
+}
+
+h4{
+  font-weight:200;
 }
 
 
@@ -76,10 +80,10 @@ color:black;
 
 
 .banner-holder{
-  width:100%;
   background-color:rgb(242,242,242);
-  height:32rem;
   margin-top:3rem;
+  padding-left:2rem;
+  text-align: center;
 }
 
 .banner-holder img{
@@ -106,7 +110,6 @@ color:black;
 .banner-holder .contactinfo h3{
   font-weight:400;
 }
-
 
 /* main section styles*/
 .mainfeatures{
